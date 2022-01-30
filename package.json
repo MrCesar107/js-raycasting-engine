@@ -1,0 +1,11 @@
+{
+  "name": "3d-shooter",
+  "version": "1.0.0",
+  "description": "JS classic old-style first person shooter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Norian Studios",
+  "license": "ISC"
+}
