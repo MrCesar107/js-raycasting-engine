@@ -174,8 +174,6 @@ export default class Ray {
   }
 
   draw() {
-    this.cast();
-
     let xDestiny = this.wallHitX;
     let yDestiny = this.wallHitY;
 
@@ -198,7 +196,6 @@ export default class Ray {
 
     let y0 = parseInt(this.ctx.canvas.height / 2) - parseInt(wallHeight / 2);
     let y1 = y0 + wallHeight;
-    let x = this.column;
 
     // Draw the image
     let heightTexture = 64;
